@@ -297,7 +297,7 @@
           </form>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-          <div id="map"></div>
+          <div>   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7117944392235!2d77.08893381440741!3d28.638398690567634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0499d3b645b5%3A0x857eb9e12603acdc!2s23%2F50+A%2C+Mall+Rd%2C+Ganesh+Nagar%2C+Tilak+Nagar%2C+New+Delhi%2C+Delhi+110018!5e0!3m2!1sen!2sin!4v1561716794637!5m2!1sen!2sin" width="600" height="450" frameborder="1" style="border:1" allowfullscreen class="popshadow"></iframe></div>
         </div>
       </div>
     </div>
@@ -332,21 +332,7 @@
     JS
   =========================== -->
 
-<script>
-function myMap() {
 
-  var myLatLng = {lat: 28.638770, lng: 77.091895};
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
-    center: myLatLng
-  });
-  var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Hello World!'
-  });
-}
-</script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
