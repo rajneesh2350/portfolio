@@ -1,0 +1,205 @@
+body {
+  background-color: #A6120E;
+  color: #b2c0c6;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.brand-logo {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0F1622;
+  border-top: 5px solid #D12016;
+  border-bottom: 1px solid #A6120E;
+  opacity: 0.8;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #A6120E;
+}
+
+#about-me,
+#portfolio,
+#conntact {
+  color: #0F1622;
+  padding: 50px 0;
+  margin-bottom: 5px;
+}
+
+#home {
+  background-color: #fff;
+  color: #015DA9;
+  margin: 0 0 5px 0;
+  padding: 100px 0 50px 0;
+}
+
+.img-border {
+  border: 1px solid #A6120E;
+}
+
+#social a {
+  display: inline-block;
+}
+
+.social-item {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+  transition: background-color ease-in-out 0.4s, color ease-in-out 0.4s;
+}
+
+.google-plus {
+  color: #dd4b39;
+  background-color: #fff;
+}
+
+.google-plus:hover {
+  color: #fff;
+  background-color: #dd4b39;
+}
+
+.twitter{
+  color: #00aced;
+  background-color: #fff;
+}
+
+.twitter:hover {
+  color: #fff;
+  background-color: #00aced;
+}
+
+.linkedin {
+  color: #007bb6;
+  background-color: #fff;
+}
+
+.linkedin:hover {
+  color: #fff;
+  background-color: #007bb6;
+}
+
+.facebook{
+  color: #3b5998;
+  background-color: #fff;
+}
+
+.facebook:hover{
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.freecodecamp{
+  color: #006401;
+  background-color: #fff;
+}
+
+.freecodecamp:hover {
+  color: #fff;
+  background-color: #006401;
+}
+
+.github{
+  color: #171516;
+  background-color: #fff;
+}
+
+.github:hover {
+  color: #fff;
+  background-color: #171516;
+}
+
+#about-me {
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.skills {
+  background-color: #eee;
+  padding: 5px;
+}
+
+.skills img {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.skills-level {
+  display: none;
+}
+
+.btn-skills {
+  margin: 0 0 -50px 0;
+  padding: 0;
+}
+
+.btn-toggle {
+  background-color: #A6120E;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+}
+
+.btn-toggle:hover {
+  background-color: #A6120E;
+  color: #000;
+  border: 0;
+  border-radius: 0;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+#portfolio {
+  background-color: #fff;
+  color: #000;
+}
+
+#contact {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 0;
+}
+
+#full_name:focus,
+#email:focus,
+#subject:focus,
+#message:focus {
+  border-bottom: 1px solid #A6120E;
+  border-left: 3px solid #A6120E;
+  border-top: 0;
+  border-right: 0;
+}
+
+.btn-send {
+  background-color: #0F1622;
+  padding: 10px 20px;
+  transition: background-color ease-in-out 0.4s, box-shadow ease-in-out 0.4s;
+}
+
+.btn-send:hover {
+  background-color: #A6120E;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  padding: 25px 0 0 0;
+}
+
+#footer {
+  background-color: #0F1622;
+  color: #e0e0e0;
+  padding: 20px 0;
+}
